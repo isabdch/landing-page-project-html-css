@@ -70,6 +70,13 @@ button {
     border-radius: 10px;
 }
 
+select:hover,
+button:hover,
+.text:hover {
+    background-color: rgb(233, 233, 233);
+    box-shadow: 0px 1px 1px 0px rgb(146, 146, 146);
+}
+
 .text {
     width: 100%;
     box-sizing: border-box;
@@ -81,6 +88,8 @@ button {
     outline: none;
     border-radius: 10px;
 }
+
+
 
 .cont {
     width: 100%;
@@ -103,7 +112,12 @@ button {
     height: 13px;
     background-color: white;
     position: absolute;
-    border-radius: 10px;
+    border-radius: 4px;
+}
+
+.check:hover {
+    background-color: rgb(233, 233, 233);
+    box-shadow: 0px 1px 1px 0px rgb(146, 146, 146);
 }
 
 .cont input:checked ~ .check {
@@ -150,8 +164,8 @@ button {
 }
 
 button:hover {
-    color: orangered;
-    background-color: white;
+    color: white;
+    background-color: rgb(255, 111, 28);
 }
 
 button:active {
