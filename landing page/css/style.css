@@ -1,0 +1,237 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: black;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+header {
+    background-color: orangered;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+.title {
+    margin: 0;
+    font-size: 2vw;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+
+section {
+    padding: 20px;
+    background-image: url('../images/people.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.formcontainer {
+    max-width: 25%;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    float: right;
+    border-radius: 15px;
+}
+
+h2 {
+    font-size: large;
+    font-weight: bolder;
+}
+
+p {
+    font-weight: bolder;
+}
+
+.marginbottom {
+    margin-bottom: 15px;
+}
+
+select,
+button {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 7px;
+    margin-bottom: 10px;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    outline: none;
+    border-radius: 10px;
+}
+
+select:hover,
+button:hover,
+.text:hover {
+    box-shadow: 0px 2px 2px 0px rgb(146, 146, 146);
+}
+
+.text {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 7px;
+    margin-bottom: 10px;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    outline: none;
+    border-radius: 10px;
+}
+
+
+
+.cont {
+    width: 100%;
+    font-weight: bold;
+    font-size: x-small;
+    position: relative;
+    cursor: pointer;
+}
+
+.cont input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.check {
+    left: 0;
+    top: 0;
+    width: 13px;
+    height: 13px;
+    background-color: white;
+    position: absolute;
+    border-radius: 4px;
+}
+
+.check:hover {
+    box-shadow: 0px 2px 2px 0px rgb(146, 146, 146);
+}
+
+.cont input:checked~.check {
+    background-color: orangered;
+    left: 0;
+    top: 0;
+    width: 13px;
+    height: 13px;
+    position: absolute;
+}
+
+.cont .check:after {
+    top: 0.5px;
+    left: 31%;
+    width: 20%;
+    height: 50%;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.check:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.cont input:checked~.check:after {
+    display: block;
+}
+
+.message {
+    margin-left: 20px;
+}
+
+button {
+    color: white;
+    background-color: orangered;
+    font-weight: bolder;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: orangered;
+    background-color: white;
+}
+
+button:active {
+    color: white;
+    background-color: orangered;
+    font-weight: bolder;
+}
+
+option {
+    font-weight: bold;
+}
+
+select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url(../images/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+}
+
+footer {
+    background-color: rgb(31, 29, 29);
+    padding: 40px;
+    text-align: center;
+}
+
+.picture {
+    width: 140px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px 0px rgb(0, 0, 0);
+}
+
+.description {
+    color: white;
+    display: inline-block;
+    max-width: 50%;
+    margin-left: 30px;
+    text-align: left;
+}
+
+.description p,
+.description h3 {
+    margin-bottom: 20px;
+}
+
+.description p {
+    font-weight: normal;
+}
+
+.description h3 {
+    font-size: larger;
+}
+
+@media screen and (max-width: 600px) {
+    .formcontainer {
+        float: none;
+        display: block;
+        margin: auto;
+        max-width: 100%;
+    }
+
+    .picture {
+        width: 180px;
+    }
+
+    .description h3 {
+        margin-top: 10px;
+    }
+}
