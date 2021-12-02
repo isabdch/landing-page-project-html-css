@@ -104,7 +104,7 @@ button:hover,
     cursor: pointer;
 }
 
-.check{
+.check {
     left: 0;
     top: 0;
     width: 13px;
@@ -118,7 +118,7 @@ button:hover,
     box-shadow: 0px 2px 2px 0px rgb(146, 146, 146);
 }
 
-.cont input:checked ~ .check {
+.cont input:checked~.check {
     background-color: orangered;
     left: 0;
     top: 0;
@@ -137,19 +137,19 @@ button:hover,
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-}   
-
-.check:after {
-   content: ""; 
-   position: absolute;
-   display: none;
 }
 
-.cont input:checked ~ .check:after {
+.check:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.cont input:checked~.check:after {
     display: block;
 }
 
-.message{
+.message {
     margin-left: 20px;
 }
 
@@ -233,5 +233,5 @@ footer {
 
     .description h3 {
         margin-top: 10px;
-    }   
+    }
 }
