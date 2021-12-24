@@ -5,14 +5,11 @@
 ## Table of Contetents
 
 - [Project Description](#project-description)
-- [Technologies](#technologies)
 - [Status](#status)
 
 ## Project Description
 
 This is my first landing page project using HTML and CSS with forms. This is about a workshop on marketing.
-
-## Technologies
 
 - ### HTML
 
