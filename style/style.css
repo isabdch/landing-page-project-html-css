@@ -219,6 +219,17 @@ footer {
     font-size: larger;
 }
 
+a {
+    padding: 3px;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    bottom: -42.7%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: x-small;
+}
+
 @media screen and (max-width: 600px) {
     .formcontainer {
         float: none;
