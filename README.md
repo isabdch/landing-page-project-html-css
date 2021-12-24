@@ -1,6 +1,6 @@
 # Landing page project with HTML and CSS
 
-## [SITE HERE](https://isabdch.github.io/landing-page-project-html-css/){:target="_blank"}
+## <a href="https://isabdch.github.io/landing-page-project-html-css/" target="_blank">SITE HERE</a>
 
 ## Table of Contetents
 
