@@ -1,6 +1,7 @@
 # Landing page project with HTML and CSS
 
 ## [SITE HERE](https://isabdch.github.io/landing-page-project-html-css/)
+![](images/workshop.png)
 
 ## Table of Contetents
 
