@@ -3,7 +3,7 @@
 ## [SITE HERE](https://isabdch.github.io/landing-page-project-html-css/)
 ![](images/workshop.png)
 
-## Table of Contetents
+## Table of Contents
 
 - [Project Description](#project-description)
 - [Status](#status)
