@@ -8,12 +8,12 @@
 ## [SITE HERE](https://isabdch.github.io/landing-page-project-html-css/)
 ![](images/workshop.png)
 
-## Table of Contents
+## 📖 Table of Contents
 
 - [Project Description](#project-description)
 - [Status](#status)
 
-## Project Description
+## ✏️ Project Description
 
 This is my first landing page project using HTML and CSS with forms. This is about a workshop on marketing.
 
@@ -25,6 +25,6 @@ This is my first landing page project using HTML and CSS with forms. This is abo
 
   To stylize the HTML elements.
 
-## Status
+## ⏱️ Status
 
 This project is finished.
