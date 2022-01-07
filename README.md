@@ -1,5 +1,10 @@
 # Landing page project with HTML and CSS
 
+![](https://img.shields.io/github/forks/isabdch/landing-page-project-html-css?color=orangered&style=for-the-badge)
+![](https://img.shields.io/github/languages/count/isabdch/landing-page-project-html-css?color=orangered&style=for-the-badge)
+![](https://img.shields.io/github/repo-size/isabdch/landing-page-project-html-css?color=orangered&style=for-the-badge)
+![](https://img.shields.io/github/issues/isabdch/landing-page-project-html-css?color=orangered&style=for-the-badge)
+
 ## [SITE HERE](https://isabdch.github.io/landing-page-project-html-css/)
 ![](images/workshop.png)
 
