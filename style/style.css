@@ -79,12 +79,13 @@ button {
     font-weight: bold;
     outline: none;
     border-radius: 10px;
+    transition: all 0.3s ease;
 }
 
 select:hover,
 button:hover,
 .text:hover {
-    box-shadow: 0px 2px 2px 0px rgb(146, 146, 146);
+    box-shadow: 2px 2px 4px rgb(146, 146, 146);
 }
 
 .text {
@@ -97,8 +98,8 @@ button:hover,
     font-weight: bold;
     outline: none;
     border-radius: 10px;
+    transition: all 0.3s ease;
 }
-
 
 
 .cont {
@@ -123,10 +124,11 @@ button:hover,
     background-color: white;
     position: absolute;
     border-radius: 4px;
+    transition: all 0.2s ease;
 }
 
 .check:hover {
-    box-shadow: 0px 2px 2px 0px rgb(146, 146, 146);
+    background-color:  rgb(235, 235, 235);
 }
 
 .cont input:checked~.check {
