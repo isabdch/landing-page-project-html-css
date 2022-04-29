@@ -30,3 +30,7 @@ This is my first landing page project using HTML and CSS with forms. This is abo
 ## ⏱️ Status
 
 This project is finished.
+
+---
+
+Made with 💜 by Isabelle Brandão 👋 [See my LinkedIn](https://www.linkedin.com/in/isabelle-brand%C3%A3o-5645551a8/)
